@@ -1,8 +1,52 @@
 
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* Single Div css*/
+
+.singlediv{
+    margin: auto;
+    padding: 35% 20px 0px 20px ;
+    border: 1px solid black;
+    height: 335px;
+    margin-top: 30px;
+    /* background-image: url('https://images-static.nykaa.com/uploads/4103ae09-66db-490e-a549-abaafa0fa050.jpg?tr=w-600,cm-pad_resize'); */
+}
+.singlediv >div{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: black;
+}
+/* Single Div css*/
+
+.slidediv{
+    width: 100%;
+    margin: auto;
+}
+.slidediv  img{
+    width: 100%;
+}
+.slidediv button{
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+}
+
 .navbar {
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    /* margin: auto; */
+    background-color: white;
     display: flex;
-    
-    padding: 10px 90px;
+    padding: 20px 10%;
     justify-content: space-between;
     align-items: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

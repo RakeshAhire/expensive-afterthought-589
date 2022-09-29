@@ -24,7 +24,7 @@ function Navbar() {
             <div class='user'>
                 <img src="https://img.icons8.com/windows/32/000000/guest-male--v1.png" alt="logo" />
                 <div>
-                    <p>Login</p>
+                    <Link to='/login'>Login</Link>
                     <p id="user_name"></p>
                 </div>
                 <img src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/000000/external-bag-fashion-royyan-wijaya-detailed-outline-royyan-wijaya-2.png" alt="logo" />
