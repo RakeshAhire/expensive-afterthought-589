@@ -12,7 +12,7 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div>
+      <div style={{width:'50%',backgroundColor: 'red' , border:'1px solid black',margin:'auto' ,padding:" 10px 90px"}}>
         <h2> Single Item</h2>
         <Slider {...settings}>
           <div>
