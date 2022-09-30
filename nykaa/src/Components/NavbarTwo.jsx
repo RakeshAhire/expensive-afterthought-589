@@ -1,23 +1,164 @@
-
+import { Link } from 'react-router-dom';
 import './NavbarTwo.css'
 
 function NavbarTwo() {
     return (
-        <div>
-            <div id="navbar2">
-                <p>Rakesh</p>
-                <ul class="listI">
-                    <p>Ethnic  Fusion Wear</p>
-                    <li><a href="../womens_wear/kurtis.html">Kurtas  Kurtis</a></li>
-                    <li>Kurta Sets</li>
-                    <li>Ethnic Dresses</li>
-                    <li>Tops Tunics</li>
-                    <li>Leggings  Churidars</li>
-                    <li>Pants  Palazzos</li>
-                    <li>Skirts</li>
-                    <li>Dupattas  Stoles</li>
-                </ul>
-            </div>
+        <div id="navbar2">
+            <ul class="listI">
+                <li>
+                    <Link to='/products'>Makeup </Link>
+                    <ul class="dropdown">
+                        <div id='nilesh'>
+                            <div>
+                                <ul>
+                                    <p>ABC</p>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                </ul>
+
+                            </div>
+                            <div>
+
+                                <ul>
+                                    <p>ABC</p>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                </ul>
+
+                            </div>
+                            <div>
+
+                                <ul>
+                                    <p>ABC</p>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                </ul>
+
+                            </div>
+                            <div>
+
+                                <ul>
+                                    <p>ABC</p>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                </ul>
+
+                            </div>
+                            <div>
+                                <ul>
+                                    <p>ABC</p>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </ul>
+
+                </li>
+
+                <li>Skin</li>
+                <li>Hair</li>
+                <li>Appliances</li>
+                <li>Personal Care</li>
+                <li>Natural</li>
+                <li>Mom  Baby</li>
+                <li>Health Wellness</li>
+                <li>Men</li>
+                <li>Fragrance</li>
+                <li>
+                    <Link to='/products'>Luxe </Link>
+                    <ul class="dropdown" id='last' >
+                        <div id='nilesh' >
+                            <div>
+                                <ul>
+                                    <p>ABC</p>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                </ul>
+
+                            </div>
+                            <div>
+
+                                <ul>
+                                    <p>ABC</p>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                </ul>
+
+                            </div>
+                            <div>
+
+                                <ul>
+                                    <p>ABC</p>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                </ul>
+
+                            </div>
+                            <div>
+
+                                <ul>
+                                    <p>ABC</p>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                </ul>
+
+                            </div>
+                            <div>
+                                <ul>
+                                    <p>ABC</p>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                    <li>Nilesh</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </ul>
+
+                </li>
+            </ul>
+
         </div>
     )
 }

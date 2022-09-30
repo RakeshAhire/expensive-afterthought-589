@@ -1,12 +1,49 @@
-
-#navbar2 ul {
-    display: none;
-    position: relative;
-    
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#navbar2 {
+    width: 100%;
+    margin: auto;
+    padding: 10px 10%;
+    margin-top: 80px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.listI {
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
 }
 
-#navbar2:hover .listI {
-    display: block;
+ul li ul.dropdown{
+    min-width:80%; /* Set width of the dropdown */
+    background: #fdfdfd;
+    display: none;
+    list-style: none;
     position: absolute;
-    z-index: 2;
+    z-index: 999;
+    /* left: 10; */
+    /* margin: auto; */
+    padding: 10px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown*/
+}
+#nilesh{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+    text-align: center;
+}
+#nilesh >div >ul {
+    list-style: none;
+    border-left: 1px solid rgb(231, 228, 228);
+}
+
+#last{
+    color: red;
+   margin-left: -77%;
+
 }
