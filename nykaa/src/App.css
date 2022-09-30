@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+.slick-next:before,.slick-prev::before{
+  color:black;
+font-size: 50px;
+}
+.slick-next{
+ right:40px;
+}
+.slick-prev{
+  left:20px;
+  z-index:5
+}

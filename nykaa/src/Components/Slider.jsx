@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import './Navbar.css'
+// import './Navbar.css'
+import "../App.css"
 
 export default class SimpleSlider extends Component {
   render() {
@@ -15,9 +16,9 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div class='slidediv'>
-      <div style={{padding:'10px 50px'}} >
+      <div  >
         <h2> Single Item</h2> 
-        <Slider {...settings} style={{marginTop:'50px'}} >
+        <Slider {...settings} style={{marginTop:'100px'}} >
           <div>
             <img src="https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" alt="" />
           </div>
