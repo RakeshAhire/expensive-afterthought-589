@@ -33,10 +33,10 @@
     width: 100%;
 }
 .slidediv button{
-    margin: auto;
+    /* margin: auto;
     height: 40px;
     width: 40px;
-    background-color: black;
+    background-color: black; */
 }
 
 .navbar {
