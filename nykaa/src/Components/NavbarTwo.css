@@ -1,0 +1,12 @@
+
+#navbar2 ul {
+    display: none;
+    position: relative;
+    
+}
+
+#navbar2:hover .listI {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}

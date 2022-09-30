@@ -4,6 +4,7 @@ import SimpleSlider from './Slider';
 import { Grid, Box, Image, Text } from '@chakra-ui/react'
 import VariableWidth from './Slider2';
 import AllProducts from './AllProducts';
+import NavbarTwo from './NavbarTwo';
 
 
 function Home() {
@@ -76,6 +77,7 @@ function Home() {
   return (
     <div>
       <Navbar />
+      <NavbarTwo />
       <SimpleSlider />
       <VariableWidth />
       <Box m={'auto'}>
