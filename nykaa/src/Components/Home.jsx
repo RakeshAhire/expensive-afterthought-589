@@ -74,14 +74,15 @@ function Home() {
       range: 'Worth Rs.175 On Rs.700'
     }]
   return (
-    <div>
+    <>
       <Navbar />
+      {/* <NavbarTwo /> */}
       <SimpleSlider />
       <VariableWidth />
-      <Box m={'auto'}>
+      <Box m={'auto'} mt={8}>
         <Image m={'auto'} w='70%' src='https://images-static.nykaa.com/uploads/2f371d7d-235a-4be5-b852-a5ddf4cd84ea.jpg?tr=w-1200,cm-pad_resize' alt='Dan Abramov' />
       </Box>
-      <Grid templateColumns='repeat(2, 1fr)' gap={'50px'} w='70%' m={'auto'} mt={20} mb={20}>
+      <Grid templateColumns='repeat(2, 1fr)' gap={'50px'} w='70%' m={'auto'} mt={5} mb={20}>
         {firstGrid.map((e) => (<SingleDiv backgroundImage={e.backgroundImage} offer={e.offer} range={e.range} />)
         )
         }
@@ -93,7 +94,8 @@ function Home() {
         }
       </Grid>
       <AllProducts/>
-    </div>
+      
+    </>
   )
 }
 export default Home;

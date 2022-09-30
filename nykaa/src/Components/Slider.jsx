@@ -16,9 +16,8 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div class='slidediv'>
-      <div  >
-        <h2> Single Item</h2> 
-        <Slider {...settings} style={{marginTop:'100px'}} >
+  
+        <Slider {...settings} >
           <div>
             <img src="https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" alt="" />
           </div>
@@ -39,7 +38,7 @@ export default class SimpleSlider extends Component {
           </div>
         </Slider>
       </div>
-      </div>
+  
     );
   }
 }

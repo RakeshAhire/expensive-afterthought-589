@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Image, Box } from "@chakra-ui/react";
-import { Container } from "@chakra-ui/layout";
+
 
 export default class VariableWidth extends Component {
     render() {
@@ -18,17 +18,13 @@ export default class VariableWidth extends Component {
             variableWidth: true
         };
         return (
-            <div>
-                    <Slider {...settings} style={{ width: '90%', height: 400 }} m={'auto'} overFlow='hidden' >
+            <div style={{ height:'300px',width: '90%',margin:'auto',marginTop:'30px' }}>
+                    <Slider {...settings} style={{height:'250px'}} >
                         <div >
-                            <Box boxSize='4xl'>
-                                <Image height={300} src='https://images-static.nykaa.com/uploads/1fbca9b2-90a5-412d-bccd-122ab840b956.png?tr=w-1200,cm-pad_resize' alt='Dan Abramov' />
-                            </Box>
+                                <img height='100%' src='https://images-static.nykaa.com/uploads/1fbca9b2-90a5-412d-bccd-122ab840b956.png?tr=w-1200,cm-pad_resize' alt='Dan Abramov' />
                         </div>
-                        <div>
-                            <Box boxSize='4xl'>
-                                <Image height={300} src='https://images-static.nykaa.com/uploads/1522381f-7b6e-4165-9fe4-393bafdcf7ea.jpg?tr=w-1200,cm-pad_resize' alt='Dan Abramov' />
-                            </Box>
+                        <div >
+                                <img height='100%'  src='https://images-static.nykaa.com/uploads/1522381f-7b6e-4165-9fe4-393bafdcf7ea.jpg?tr=w-1200,cm-pad_resize' alt='Dan Abramov' />
                         </div>
                     </Slider>
                

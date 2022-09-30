@@ -3,6 +3,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    
 }
 /* Single Div css*/
 
@@ -28,35 +29,35 @@
 .slidediv{
     width: 100%;
     margin: auto;
+    /* margin-top: 50px; */
 }
 .slidediv  img{
     width: 100%;
-}
-.slidediv button{
-    /* margin: auto;
-    height: 40px;
-    width: 40px;
-    background-color: black; */
+    margin-top: 50px;
 }
 
+ #main{
+    display: flex;
+     flex-direction:column;
+     width: 100%;
+ }
 .navbar {
     width: 100%;
-    z-index: 100;
-    position: fixed;
-    /* margin: auto; */
+    position: fixed ;
     background-color: white;
     display: flex;
     padding: 20px 10%;
     justify-content: space-between;
     align-items: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 100;
 }
 
 .ulist{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    margin-right: 0px;
+    /* margin-right: 0px; */
     text-decoration: none;
 }
 .ulist > li{
@@ -98,5 +99,4 @@
 .user>img{
     width: 100%;
     height: 20%;
-    
 }
