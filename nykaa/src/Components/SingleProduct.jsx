@@ -31,8 +31,8 @@ function SingleProduct({
 
     return (
         <Box key={id} m={'auto'} maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
-            <Image w='full' src={image} alt={name} />
-            <Box >
+            <Image w='250px' h='300px'  src={image} alt={name} />
+            <Box w='50px'  >
                 <Text >
                     {name}
                 </Text>
