@@ -88,11 +88,13 @@ function Home() {
         }
       </Grid>
       <Text fontSize='3xl' textAlign={'center'} >Only At Nykaa</Text>
+
       <Grid templateColumns='repeat(2, 1fr)' gap={'50px'} w='70%' m={'auto'} mt={20} mb={20}>
         {secondGrid.map((e) => (<SingleDiv backgroundImage={e.backgroundImage} offer={e.offer} range={e.range} />)
         )
         }
       </Grid>
+
       <AllProducts/>
       
     </>

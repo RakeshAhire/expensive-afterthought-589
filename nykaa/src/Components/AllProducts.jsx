@@ -14,7 +14,7 @@ function AllProducts(){
             <div>
             
             </div>
-            <Grid templateColumns='repeat(2, 1fr)' gap={6}>
+            <Grid w='80%' m={'auto'} templateColumns='repeat(4, 1fr)' gap={6}>
             { myData.map((e)=>(
                 <SingleProduct 
                 key={e.id}

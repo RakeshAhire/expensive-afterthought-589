@@ -8,8 +8,8 @@ function AllRoutes(){
             <Route path="/" element={<Home/>}></Route>
              <Route path="/category" element={<Category/>}></Route>
             <Route path='/login' element={<Login/>}></Route>
+            <Route path="/faceprimer" element={<Face/>}></Route>
            {/* <Route></Route>
-            <Route></Route>
             <Route></Route> */}
         </Routes>
 

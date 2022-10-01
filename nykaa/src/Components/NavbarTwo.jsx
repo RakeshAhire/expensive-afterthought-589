@@ -12,7 +12,7 @@ function NavbarTwo() {
                             <div>
                                 <ul>
                                     <p>ABC</p>
-                                    <li>Nilesh</li>
+                                    <li><Link to='/faceprimer'>Face Primer</Link></li>
                                     <li>Nilesh</li>
                                     <li>Nilesh</li>
                                     <li>Nilesh</li>

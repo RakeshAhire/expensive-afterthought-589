@@ -15,23 +15,10 @@ function SingleProduct({
     off,
     rating
 }){ 
-    // const property = {
-    //     id: 1,
-    //     category: "face-primer",
-    //     feautured: false,
-    //     bestSeller: true,
-    //     image: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/l/a/lakm_-absolute-blur-perfect-makeup-primer.jpg",
-    //     name: "Lakme Absolute Blur Perfect Makeup Primer",
-    //     offer: "Extra 10% Off",
-    //     mrp: 750,
-    //     price: 503,
-    //     off: 33,
-    //     rating: 4,
-    // }
-
+   
     return (
         <Box key={id} m={'auto'} maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
-            <Image w='250px' h='300px'  src={image} alt={name} />
+            <Image w='250px' h='270px'  src={image} alt={name} />
             <Box w='50px'  >
                 <Text >
                     {name}
