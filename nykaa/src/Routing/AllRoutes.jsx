@@ -2,9 +2,9 @@ import { Routes,Route } from "react-router-dom";
 import Home from "../Pages/Home";
 import Category from '../Components/Category'
 import Login from '../Pages/Login'
-import Face from "../Pages/Face";
 import AddToCart from "../Pages/AddToCart";
 import Eyes from "../Pages/Eyes";
+import Face from "../Pages/Face";
 function AllRoutes(){
     return (
         <Routes>
