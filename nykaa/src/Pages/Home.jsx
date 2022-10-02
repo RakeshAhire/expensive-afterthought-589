@@ -1,9 +1,9 @@
-import Navbar from './Navbar';
-import SingleDiv from './SingleDiv';
-import SimpleSlider from './Slider';
+
+import SingleDiv from '../Components/SingleDiv';
+import SimpleSlider from '../Components/Slider';
 import { Grid, Box, Image, Text } from '@chakra-ui/react'
-import VariableWidth from './Slider2';
-import AllProducts from './AllProducts';
+import VariableWidth from '../Components/Slider2';
+
 
 
 function Home() {
@@ -73,15 +73,32 @@ function Home() {
       offer: 'Upto 35% Off + Free Sleeping Mask',
       range: 'Worth Rs.175 On Rs.700'
     }]
+
+  const slideData = [
+
+    { image: "https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" },
+
+    { image: "https://images-static.nykaa.com/uploads/b6c778be-a0c6-418b-b2a6-c3062d032b89.gif?tr=w-1200,cm-pad_resize" },
+
+    { image: "https://images-static.nykaa.com/uploads/db2cf3c8-d190-4890-8803-ad0b8549df5c.jpg?tr=w-1200,cm-pad_resize" },
+
+    { image: "https://images-static.nykaa.com/uploads/0cc73a9d-2e31-4a85-b7b8-9ebe254be332.jpg?tr=w-1200,cm-pad_resize" },
+
+    { image: "https://images-static.nykaa.com/uploads/f182b62f-656b-4406-9a7d-4ffae65d2fa6.jpg?tr=w-1200,cm-pad_resize" },
+
+    { image: "https://images-static.nykaa.com/uploads/646688e0-e8a8-484f-8bdf-a9d60d6520b1.jpg?tr=w-1200,cm-pad_resize" }
+  ]
+
   return (
     <>
-      <Navbar />
-      {/* <NavbarTwo /> */}
-      <SimpleSlider />
+      <SimpleSlider slideData={slideData} />
+
       <VariableWidth />
+
       <Box m={'auto'} mt={8}>
         <Image m={'auto'} w='70%' src='https://images-static.nykaa.com/uploads/2f371d7d-235a-4be5-b852-a5ddf4cd84ea.jpg?tr=w-1200,cm-pad_resize' alt='Dan Abramov' />
       </Box>
+
       <Grid templateColumns='repeat(2, 1fr)' gap={'50px'} w='70%' m={'auto'} mt={5} mb={20}>
         {firstGrid.map((e) => (<SingleDiv backgroundImage={e.backgroundImage} offer={e.offer} range={e.range} />)
         )
@@ -94,9 +111,6 @@ function Home() {
         )
         }
       </Grid>
-
-      <AllProducts/>
-      
     </>
   )
 }

@@ -3,45 +3,35 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 // import './Navbar.css'
-import "../App.css"
+import "../App.css";
 
-export default class SimpleSlider extends Component {
-  render() {
+export default function SimpleSlider({slideData}){
+    // console.log("SildeData",slideData)
     const settings = {
       dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
     };
     return (
       <div class='slidediv'>
-  
         <Slider {...settings} >
-          <div>
-            <img src="https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" alt="" />
-          </div>
-          <div>
-          <img src="https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" alt="" />
-          </div>
-          <div>
-          <img src="https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" alt="" />
-          </div>
-          <div>
-          <img src="https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" alt="" />
-          </div>
-          <div>
-          <img src="https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" alt="" />
-          </div>
-          <div>
-          <img src="https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" alt="" />
-          </div>
+          {
+            slideData.map((e)=>(
+              <div>
+                <img src={e.image} alt={e.image} />
+              </div>
+            ))
+          }
         </Slider>
       </div>
   
     );
   }
-}
+
 
 
 // export default class SimpleSlider extends Component {

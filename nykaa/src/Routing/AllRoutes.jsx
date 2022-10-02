@@ -1,7 +1,10 @@
 import { Routes,Route } from "react-router-dom";
-import Home from "./Home";
-import Category from './Category'
-import Login from './Login'
+import Home from "../Pages/Home";
+import Category from '../Components/Category'
+import Login from '../Pages/Login'
+import Face from "../Pages/Face";
+import AddToCart from "../Pages/AddToCart";
+import Eyes from "../Pages/Eyes";
 function AllRoutes(){
     return (
         <Routes>
@@ -9,8 +12,8 @@ function AllRoutes(){
              <Route path="/category" element={<Category/>}></Route>
             <Route path='/login' element={<Login/>}></Route>
             <Route path="/faceprimer" element={<Face/>}></Route>
-           {/* <Route></Route>
-            <Route></Route> */}
+            <Route path='/faceprimer/:pId' element={<AddToCart/>}></Route>
+           <Route path="/eyes" element={<Eyes/>}></Route>
         </Routes>
 
     )
