@@ -33,17 +33,20 @@ ul li:hover ul.dropdown{
 }
 #nilesh{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(6,1fr);
     gap: 5px;
-    text-align: center;
+    margin-top: 10px;
 }
 #nilesh >div >ul {
     list-style: none;
-    border-left: 1px solid rgb(231, 228, 228);
+    border-right: 1px solid rgb(231, 228, 228);
+}
+#nilesh >div >ul >li:hover {
+   cursor: pointer;
+   color: red;
 }
 
 #last{
     color: red;
    margin-left: -77%;
-
 }

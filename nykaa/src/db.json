@@ -17,6 +17,22 @@
             "updatedAt": "2022-05-07T01:59:12.232Z"
         },
         {
+            "_id": "6275d2707e2cc7327396754a",
+            "id": 2,
+            "category": "face-primer",
+            "feautured": true,
+            "bestSeller": true,
+            "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/0/4/04210e16902395773153_1.jpg",
+            "name": "Maybelline New York Fit Me Primer",
+            "offer": "Extra 10% Off",
+            "mrp": 499,
+            "price": 399,
+            "off": 20,
+            "rating": 3,
+            "createdAt": "2022-05-07T01:59:12.232Z",
+            "updatedAt": "2022-05-07T01:59:12.232Z"
+        },
+        {
             "_id": "6275d2707e2cc7327396754b",
             "id": 3,
             "category": "face-primer",
@@ -33,20 +49,20 @@
             "updatedAt": "2022-05-07T01:59:12.232Z"
         },
         {
-            "_id": "6275d2707e2cc7327396754a",
-            "id": 2,
+            "_id": "6275d2707e2cc7327396754c",
+            "id": 4,
             "category": "face-primer",
             "feautured": true,
-            "bestSeller": true,
-            "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/0/4/04210e16902395773153_1.jpg",
-            "name": "Maybelline New York Fit Me Primer",
+            "bestSeller": false,
+            "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/4/4/446ff25plprsb_1.jpg",
+            "name": "Plume Silk Blur Moisturising Primer",
             "offer": "Extra 10% Off",
-            "mrp": 499,
-            "price": 399,
-            "off": 20,
-            "rating": 3,
-            "createdAt": "2022-05-07T01:59:12.232Z",
-            "updatedAt": "2022-05-07T01:59:12.232Z"
+            "mrp": 650,
+            "price": 585,
+            "off": 10,
+            "rating": 4,
+            "createdAt": "2022-05-07T01:59:12.233Z",
+            "updatedAt": "2022-05-07T01:59:12.233Z"
         },
         {
             "_id": "6275d2707e2cc7327396754d",
@@ -81,17 +97,34 @@
             "updatedAt": "2022-05-07T01:59:12.233Z"
         },
         {
-            "_id": "6275d2707e2cc7327396754c",
-            "id": 4,
+            "_id": "6275d2707e2cc7327396754f",
+            "id": 7,
             "category": "face-primer",
             "feautured": true,
             "bestSeller": false,
-            "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/4/4/446ff25plprsb_1.jpg",
-            "name": "Plume Silk Blur Moisturising Primer",
+            "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/6/0/609332859128.jpg",
+            "name": "e.l.f. Cosmetics Poreless Putty Primer - Universal Sheer",
             "offer": "Extra 10% Off",
-            "mrp": 650,
-            "price": 585,
+            "mrp": 750,
+            "price": 675,
             "off": 10,
+            "rating": 3,
+            "createdAt": "2022-05-07T01:59:12.233Z",
+            "updatedAt": "2022-05-07T01:59:12.233Z"
+        },
+        
+        {
+            "_id": "6275d2707e2cc73273967550",
+            "id": 8,
+            "category": "face-primer",
+            "feautured": true,
+            "bestSeller": true,
+            "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/7/d/7dab7bf8906121641516_1.jpg",
+            "name": "Renee Cosmetics Face Base Illuminating Primer",
+            "offer": "Extra 5% Off",
+            "mrp": 599,
+            "price": 443,
+            "off": 26,
             "rating": 4,
             "createdAt": "2022-05-07T01:59:12.233Z",
             "updatedAt": "2022-05-07T01:59:12.233Z"
@@ -113,22 +146,6 @@
             "updatedAt": "2022-05-07T01:59:12.233Z"
         },
         {
-            "_id": "6275d2707e2cc73273967550",
-            "id": 8,
-            "category": "face-primer",
-            "feautured": true,
-            "bestSeller": true,
-            "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/7/d/7dab7bf8906121641516_1.jpg",
-            "name": "Renee Cosmetics Face Base Illuminating Primer",
-            "offer": "Extra 5% Off",
-            "mrp": 599,
-            "price": 443,
-            "off": 26,
-            "rating": 4,
-            "createdAt": "2022-05-07T01:59:12.233Z",
-            "updatedAt": "2022-05-07T01:59:12.233Z"
-        },
-        {
             "_id": "6275d2707e2cc73273967552",
             "id": 10,
             "category": "face-primer",
@@ -144,25 +161,10 @@
             "createdAt": "2022-05-07T01:59:12.233Z",
             "updatedAt": "2022-05-07T01:59:12.233Z"
         },
-        {
-            "_id": "6275d2707e2cc7327396754f",
-            "id": 7,
-            "category": "face-primer",
-            "feautured": true,
-            "bestSeller": false,
-            "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/6/0/609332859128.jpg",
-            "name": "e.l.f. Cosmetics Poreless Putty Primer - Universal Sheer",
-            "offer": "Extra 10% Off",
-            "mrp": 750,
-            "price": 675,
-            "off": 10,
-            "rating": 3,
-            "createdAt": "2022-05-07T01:59:12.233Z",
-            "updatedAt": "2022-05-07T01:59:12.233Z"
-        },
+        
         {
             "_id": "6275d2707e2cc73273967554",
-            "id": 12,
+            "id": 11,
             "category": "face-primer",
             "feautured": true,
             "bestSeller": true,
@@ -178,7 +180,7 @@
         },
         {
             "_id": "6275d2707e2cc73273967555",
-            "id": 13,
+            "id": 12,
             "category": "face-primer",
             "feautured": true,
             "bestSeller": true,
@@ -194,7 +196,7 @@
         },
         {
             "_id": "6275d2707e2cc73273967557",
-            "id": 15,
+            "id": 13,
             "category": "face-primer",
             "feautured": true,
             "bestSeller": true,
@@ -226,7 +228,7 @@
         },
         {
             "_id": "6275d2707e2cc73273967553",
-            "id": 11,
+            "id": 15,
             "category": "face-primer",
             "feautured": true,
             "bestSeller": true,

@@ -1,21 +1,11 @@
 import SingleProduct from "./SingleProduct";
-import data from '../db.json'
-import { useEffect, useState } from "react";
 import {Grid} from '@chakra-ui/react';
-function AllProducts(){
-    const [myData,setmyData]=useState([]);
-
-    useEffect(()=>{
-        setmyData(data.faceprimer)
-    },[])
-    // console.log('data: ', data.eyes);
+function AllProducts({data}){
+   
     return (
         <div>
-            <div>
-            
-            </div>
-            <Grid w='80%' m={'auto'} templateColumns='repeat(4, 1fr)' gap={6}>
-            { myData.map((e)=>(
+            <Grid w='80%' m={'auto'} templateColumns='repeat(3, 1fr)' gap={6}>
+            { data.map((e)=>(
                 <SingleProduct 
                 key={e.id}
                 id={e.id}
@@ -40,14 +30,3 @@ function AllProducts(){
 export default AllProducts;
 
 
-    // id
-    // category
-    // feautured
-    // bestSeller
-    // image
-    // name
-    // offer
-    // mrp
-    // price
-    // off
-    // rating

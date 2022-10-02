@@ -1,6 +1,7 @@
 
 
-import AllRoutes from './Components/AllRoutes';
+import AllRoutes from './Routing/AllRoutes';
+import Navbar from './Components/Navbar';
 
 
 
@@ -10,7 +11,7 @@ function App() {
 
     <>
       
-        {/* <Navbar /> */}
+        <Navbar />
         <AllRoutes />
     </>
 
