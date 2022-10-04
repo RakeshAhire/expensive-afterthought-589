@@ -1,10 +1,15 @@
 import SingleProduct from "./SingleProduct";
 import {Grid} from '@chakra-ui/react';
 function AllProducts({data}){
-   
+    const breakpoints = {
+        sm: 'repeat(1, 1fr)',
+        md: 'repeat(2, 1fr)',
+        lg: 'repeat(3, 1fr)',
+        xl: 'repeat(3, 1fr)',
+      }
     return (
         <div>
-            <Grid w='80%' m={'auto'} templateColumns='repeat(3, 1fr)' gap={6}>
+            <Grid w='80%' m={'auto'} templateColumns={breakpoints} gap={6}>
             { data.map((e)=>(
                 <SingleProduct 
                 key={e.id}

@@ -19,6 +19,7 @@ const slideData = [
 
     { image: "https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" }
   ]
+  
 function Face() {
 
     const [myData, setmyData] = useState([]);
@@ -55,7 +56,6 @@ function Face() {
                     <Box w='80%' >
                         <AllProducts data={myData} />
                     </Box>
-
                 </Flex>
             </Container>
         </>
