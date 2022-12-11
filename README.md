@@ -1,4 +1,6 @@
 # Nykaa Clone
+Nykaa is an Indian e-commerce company. It sells beauty, wellness, and
+fashion products across websites, mobile apps, and 100+ offline stores.
 
 # Tech Stack:- 
 React
